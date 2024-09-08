@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+  <head>
+    <title>Contact Us Page</title>
+  </head>
+  <body>
+    <div id="content">
+      <section class="py-20   bg-gray-100 animate__animated animate__fadeInUp">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 dark:text-gray-900">Get in Touch</h2>
+      <form class="max-w-lg mx-auto">
+        <input type="text" placeholder="Your Name" class="w-full px-4 py-2 mb-4 border border-gray-300 rounded">
+        <input type="email" placeholder="Your Email"
+               class="w-full px-4 py-2 mb-4 border border-gray-300 rounded">
+        <textarea placeholder="Your Message"
+                  class="w-full px-4 py-2 mb-4 border border-gray-300 rounded"></textarea>
+        <button type="submit"
+                class="bg-blue-600 text-white px-6 py-3 rounded font-semibold hover:bg-blue-700 transition duration-300">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Contact Manager. All rights reserved.</p>
+      <p>Follow us on <a href="#" class="text-blue-400">Facebook</a>, <a href="#"
+                                                                         class="text-blue-400">Twitter</a>, and <a
+              href="#" class="text-blue-400">Instagram</a>.</p>
+    </div>
+  </footer>
+    <script>
+      console.log("Home page");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+  <head>
+    <title>About Page</title>
+  </head>
+  <body>
+    <div id="content">
+    
+    <!-- Main Content -->
+  <section class="py-16">
+    <div class="container mx-auto px-6">
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="p-8">
+          <h1 class="text-4xl font-bold text-gray-800 mb-4 ">About Us</h1>
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            Smart Content Manager is a powerful content management system designed to help users create, manage, and publish digital content with ease. Whether you're a small business or an enterprise, our platform provides you with tools for seamless collaboration, publishing, and authentication through Google and GitHub.
+          </p>
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            Built on the Spring Boot framework, Smart Content Manager offers a robust backend with Thymeleaf templating for dynamic content rendering. We are committed to providing a secure and scalable solution that helps users streamline their content creation process.
+          </p>
+          <h2 class="text-2xl font-semibold text-gray-800 mb-4">Our Mission</h2>
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            Our mission is to empower individuals and organizations by providing them with a simple yet powerful tool to manage their content. With built-in authentication and flexible content handling, we aim to make content management easier and more efficient.
+          </p>
+          <h2 class="text-2xl font-semibold text-gray-800 mb-4">Meet the Team</h2>
+          <div class="flex space-x-6">
+            <!-- Team Member 1 -->
+            <div class="flex flex-col items-center">
+              <img src="https://res.cloudinary.com/dewudfxyt/image/upload/v1709215846/dafj9hllnd9wa3bz6bpx.jpg" alt="Team Member" class="w-24 h-24 rounded-full shadow-md mb-4">
+              <h3 class="text-xl font-semibold text-gray-800">Akshay kumar</h3>
+              <p class="text-gray-600">Co-Founder & CTO</p>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+     <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Contact Manager. All rights reserved.</p>
+      <p>Follow us on <a href="#" class="text-blue-400">Facebook</a>, <a href="#"
+                                                                         class="text-blue-400">Twitter</a>, and <a
+              href="#" class="text-blue-400">Instagram</a>.</p>
+    </div>
+  </footer>
+    </div>
+    <script>
+      console.log("about page");
+    </script>
+    <script>
+      console.log("second about page script");
+    </script>
+  </body>
+</html>
